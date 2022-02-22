@@ -30,15 +30,7 @@ const getReplacement = ({ isMarginNote, noteHTML }) => {
     },
     {
       type: "html",
-      value: `<span class="${noteTypeCls}">`,
-    },
-    {
-      type: "html",
-      value: noteHTML,
-    },
-    {
-      type: "html",
-      value: "</span>",
+      value: `<span class="${noteTypeCls}">${noteHTML}</span>`,
     },
   ];
 };
